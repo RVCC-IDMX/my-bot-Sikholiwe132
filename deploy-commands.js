@@ -1,6 +1,7 @@
 /* eslint-disable global-require */
 /* eslint-disable import/no-dynamic-require */
 /* eslint-disable no-restricted-syntax */
+/* eslint-disable indent */
 const { REST, Routes } = require('discord.js');
 const fs = require('node:fs');
 const path = require('node:path');
