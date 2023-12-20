@@ -198,4 +198,4 @@ $RECYCLE.BIN/
 # Ignore JSON file
 .node_modules
 .env
-.config.json
+config.json

@@ -23,8 +23,8 @@ module.exports = {
         .setDescription('Get a cow to say something!')
         .addStringOption((option) => option.setName('text')
             .setDescription('The text for the cow to say')
-            .setRequired(true))
-        .setMaxLength(25)
+            .setRequired(true)
+            .setMaxLength(25))
         .addStringOption((option) => option.setName('cow')
             .setDescription('Which cow says it')
             .setRequired(true)),
